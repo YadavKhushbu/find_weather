@@ -150,10 +150,10 @@ searchForm.addEventListener("submit", (e) => {
     else 
         fetchSearchWeatherInfo(cityName);
 })
-const errorfound = document.querySelector(".error-container");
+// const errorfound = document.querySelector(".error-container");
 async function fetchSearchWeatherInfo(city) {
     loadingScreen.classList.add("active");
-    errorfound.classList.remove("active");
+    // errorfound.classList.remove("active");
     userInfoContainer.classList.remove("active");
     grantAccessContainer.classList.remove("active");
 
